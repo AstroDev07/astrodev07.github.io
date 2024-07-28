@@ -29,3 +29,14 @@ changeMode.addEventListener('click', ()=>{
   }
   
 })
+
+let readModeDiv=document.getElementById('read-mode-div')
+let readMode=document.getElementById('read-mode')
+readMode.addEventListener('click', ()=>{
+  if(readModeDiv.className=='read-mode-div-off'){
+    readModeDiv.className='read-mode-div-on'
+  }
+  else{
+    readModeDiv.className='read-mode-div-off'
+  }
+})
