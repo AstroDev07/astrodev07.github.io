@@ -31,3 +31,15 @@ let email=document.getElementById('emailink')
 email.addEventListener('click', ()=>{
   window.open('mailto:diegoenriquezpuig07@gmail.com')
 })
+
+let changeMode=document.getElementById('change-mode')
+changeMode.addEventListener('click', ()=>{
+  
+  if(document.body.className=='dark-mode'){
+    document.body.className='white-mode'
+  }
+  else{
+    document.body.className='dark-mode'
+  }
+  
+})

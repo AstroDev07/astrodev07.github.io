@@ -7,6 +7,10 @@ html{
   src: url("src/font/MondaySans.ttf");
 }
 
+*{
+  transition: all 0.6s;
+}
+
 h1{
   font-weight: 500;
 }
@@ -18,10 +22,19 @@ h2{
 body{
   margin: 0;
   padding: 0;
-  background-color: #191919;
-  color: #f0f0f0;
-  font-weight: 370;
   font-family: MondaySans;
+}
+
+.dark-mode{
+  background-color: #191919;
+  color: #f5f5f5;
+  font-weight: 370;
+}
+
+.white-mode{
+  background-color: #f5f5f5;
+  color: #191919;
+  font-weight: 370;
 }
 
 .center-text{
@@ -31,6 +44,10 @@ body{
 
 .main-header > hgroup > h1{
   margin-bottom: 0.5rem;
+}
+
+.white-mode > .main-header > hgroup > h2{
+  color: #1f1f1f;
 }
 .main-header > hgroup > h2{
   color: #d0d0d0;
@@ -58,6 +75,7 @@ body{
   margin-bottom: 0.9rem;
   font-weight: 600;
   border-radius: 0.3rem;
+  color: #f5f5f5;
 }
 
 .my-links > .telegram{
@@ -89,6 +107,25 @@ mark{
   border-top: 0.08rem solid #f9f9f9;
   margin: 0.5rem;
 }
+
+.float-btn{
+  position: fixed;
+  bottom: 2.5rem;
+  right: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.08rem;
+}
+
+.dark-mode > .float-btn{
+  background-color: #191919;
+  border: 0.07rem solid #f5f5f5;
+}
+
+.white-mode > .float-btn{
+  background-color: #f5f5f5;
+  border: 0.07rem solid #191919;
+}
+
 
 /*This Code is copied from 
 https://github.com/DIegoLOL-Code/BeautyCSS
