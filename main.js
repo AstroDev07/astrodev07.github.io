@@ -26,3 +26,8 @@ let youtube=document.getElementById('ytchannel')
 youtube.addEventListener('click', ()=>{
   window.open('https://youtube.com/@astrodev07')
 })
+
+let email=document.getElementById('emailink')
+email.addEventListener('click', ()=>{
+  window.open('mailto:diegoenriquezpuig07@gmail.com')
+})

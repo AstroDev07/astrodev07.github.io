@@ -72,6 +72,10 @@ body{
   background-color: #ff0000;
 }
 
+.my-links > .email{
+  background-color: #DCB451;
+}
+
 mark{
   color: #f0f0f0;
   background-color: #091FCF;
