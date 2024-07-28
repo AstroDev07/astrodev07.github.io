@@ -37,9 +37,11 @@ changeMode.addEventListener('click', ()=>{
   
   if(document.body.className=='dark-mode'){
     document.body.className='white-mode'
+    changeMode.innerHTML='Dark Mode'
   }
   else{
     document.body.className='dark-mode'
+    changeMode.innerHTML='White Mode'
   }
   
 })
