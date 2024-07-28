@@ -2,35 +2,19 @@ let footer=document.getElementById('footer-text')
 
 footer.innerHTML='Diego Enríquez<br/> Copyright© '+new Date().getFullYear()
 
-let degcode=document.getElementById('degcodechannel')
-degcode.addEventListener('click', ()=>{
-  window.open('https://t.me/degcode')
-})
+let events=(id, url)=>{
+  let obj=document.getElementById(id)
+  obj.addEventListener('click', ()=>{
+    window.open(url)
+  })
+}
 
-let twitter=document.getElementById('twitterlink')
-twitter.addEventListener('click', ()=>{
-  window.open('https://www.x.com/astrodev0703')
-})
-
-let telegram=document.getElementById('personaltg')
-telegram.addEventListener('click', ()=>{
-  window.open('https://t.me/astrofficial')
-})
-
-let github=document.getElementById('mygithub')
-github.addEventListener('click', ()=>{
-  window.open('https://github.com/astrodev07')
-})
-
-let youtube=document.getElementById('ytchannel')
-youtube.addEventListener('click', ()=>{
-  window.open('https://youtube.com/@astrodev07')
-})
-
-let email=document.getElementById('emailink')
-email.addEventListener('click', ()=>{
-  window.open('mailto:diegoenriquezpuig07@gmail.com')
-})
+events('degcodechannel', 'https://t.me/degcode')
+events('twitterlink', 'https://www.x.com/astrodev0703')
+events('personaltg', 'https://t.me/astrofficial')
+events('mygithub', 'https://github.com/astrodev07')
+events('ytchannel', 'https://youtube.com/@astrodev07')
+events('emailink', 'mail to: diegoenriquezpuig07@gmail.com')
 
 let changeMode=document.getElementById('change-mode')
 changeMode.addEventListener('click', ()=>{
