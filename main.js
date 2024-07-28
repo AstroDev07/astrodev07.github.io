@@ -14,7 +14,7 @@ events('twitterlink', 'https://www.x.com/astrodev0703')
 events('personaltg', 'https://t.me/astrofficial')
 events('mygithub', 'https://github.com/astrodev07')
 events('ytchannel', 'https://youtube.com/@astrodev07')
-events('emailink', 'mail to: diegoenriquezpuig07@gmail.com')
+events('emailink', 'mailto: diegoenriquezpuig07@gmail.com')
 
 let changeMode=document.getElementById('change-mode')
 changeMode.addEventListener('click', ()=>{
