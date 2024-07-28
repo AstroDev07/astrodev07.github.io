@@ -53,6 +53,11 @@ body{
 .my-links > div{
   margin: 0 auto;
   border: #f0f0f0 solid 0.08rem;
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 0.9rem;
+  font-weight: 600;
+  border-radius: 0.3rem;
 }
 
 .my-links > .telegram{
@@ -65,14 +70,6 @@ body{
 
 .my-links > .youtube{
   background-color: #ff0000;
-}
-
-.my-links > div{
-  width: 90%;
-  padding: 1rem;
-  margin-bottom: 0.9rem;
-  font-weight: 450;
-  border-radius: 0.3rem;
 }
 
 mark{
