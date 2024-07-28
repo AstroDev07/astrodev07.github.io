@@ -2,6 +2,11 @@ html{
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: MondaySans;
+  src: url("src/font/MondaySans.ttf");
+}
+
 h1{
   font-weight: 500;
 }
@@ -16,6 +21,7 @@ body{
   background-color: #010101;
   color: #f0f0f0;
   font-weight: 370;
+  font-family: MondaySans;
 }
 
 .center-text{
