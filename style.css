@@ -18,7 +18,7 @@ h2{
 body{
   margin: 0;
   padding: 0;
-  background-color: #010101;
+  background-color: #191919;
   color: #f0f0f0;
   font-weight: 370;
   font-family: MondaySans;
@@ -62,6 +62,10 @@ body{
 
 .my-links > .telegram{
   background-color: #31ABE0;
+}
+
+.my-links > .twitterx{
+  background-color: #000000;
 }
 
 .my-links > .github{
