@@ -59,8 +59,15 @@ body{
   padding: 0.5rem;
   margin: 0.5rem;
   text-align: center;
-  border: 0.08rem solid white;
   border-radius: 0.2rem;
+}
+
+.dark-mode > .my-description{
+  border: 0.08rem solid white;
+}
+
+.white-mode > .my-description{
+  border: 0.08rem solid black;
 }
 
 .content-space{
@@ -104,8 +111,15 @@ mark{
 }
 
 .footer{
-  border-top: 0.08rem solid #f9f9f9;
   margin: 0.5rem;
+}
+
+.dark-mode > .footer{
+  border-top: 0.08rem solid #f9f9f9;
+}
+
+.white-mode > .footer{
+  border-top: 0.08rem solid #191919;
 }
 
 .float-btn-right{
