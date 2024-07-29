@@ -32,7 +32,7 @@ changeMode.addEventListener('click', ()=>{
 
 let changeLang=document.getElementById('change-lang')
 changeLang.addEventListener('click',()=>{
-  if(this.innerHTML=='English'){
+  if(window.location=='https://astrodev07.github.io/es'){
     window.location='https://astrodev07.github.io/'
   }
   else{
