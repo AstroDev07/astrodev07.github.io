@@ -30,13 +30,12 @@ changeMode.addEventListener('click', ()=>{
   
 })
 
-let readModeDiv=document.getElementById('read-mode-div')
-let readMode=document.getElementById('read-mode')
-readMode.addEventListener('click', ()=>{
-  if(readModeDiv.className=='read-mode-div-off'){
-    readModeDiv.className='read-mode-div-on'
+let changeLang=document.getElementById('change-lang')
+changeLang.addEventListener('click',()=>{
+  if(this.innerHTML=='English'){
+    window.location='https://astrodev07.github.io/'
   }
   else{
-    readModeDiv.className='read-mode-div-off'
+    window.location='https://astrodev07.github.io/es'
   }
 })
