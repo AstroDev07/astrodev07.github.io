@@ -14,11 +14,10 @@ events('twitterlink', 'https://www.x.com/astrodev0703')
 events('personaltg', 'https://t.me/astrofficial')
 events('mygithub', 'https://github.com/astrodev07')
 events('ytchannel', 'https://youtube.com/@astrodev07')
-events('emailink', 'mailto: diegoenriquezpuig07@gmail.com')
+events('emailink', 'mailto:diegoenriquezpuig07@gmail.com')
 
 let changeMode=document.getElementById('change-mode')
 changeMode.addEventListener('click', ()=>{
-  
   if(document.body.className=='dark-mode'){
     document.body.className='white-mode'
     changeMode.innerHTML='Dark Mode'
@@ -26,16 +25,5 @@ changeMode.addEventListener('click', ()=>{
   else{
     document.body.className='dark-mode'
     changeMode.innerHTML='White Mode'
-  }
-  
-})
-
-let changeLang=document.getElementById('change-lang')
-changeLang.addEventListener('click',()=>{
-  if(window.location=='https://astrodev07.github.io/' || window.location=='https://astrodev07.github.io/index.html'){
-    window.location='indexesp.html'
-  }
-  else{
-    window.location='index.html'
   }
 })
