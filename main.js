@@ -15,6 +15,7 @@ events('personaltg', 'https://t.me/astrofficial')
 events('mygithub', 'https://github.com/astrodev07')
 events('ytchannel', 'https://youtube.com/@astrodev07')
 events('emailink', 'mailto:diegoenriquezpuig07@gmail.com')
+events('instagram', 'https://www.instagram.com/diego.alejandroep?igsh=NWE5dXhjYXN0OTJu')
 
 let changeMode=document.getElementById('change-mode')
 changeMode.addEventListener('click', ()=>{
