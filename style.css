@@ -221,3 +221,11 @@ progress[value]::-webkit-progress-value {
 progress::-moz-progress-bar {
   background-color: #4F7ADA;
 }
+
+
+@media  (min-width: 600px){
+  body{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
