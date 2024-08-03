@@ -1,0 +1,240 @@
+html{
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("src/font/OpenSans.ttf");
+  font-weight: 200;
+}
+
+*{
+  transition: all 0.6s;
+}
+
+h1{
+  font-weight: 500;
+}
+
+h2{
+  font-weight: 400;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans;
+}
+
+.dark-mode{
+  background-color: #191919;
+  color: #f5f5f5;
+  font-weight: 370;
+}
+
+.white-mode{
+  background-color: #f5f5f5;
+  color: #191919;
+  font-weight: 370;
+}
+
+.center-text{
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-header > hgroup > h1{
+  margin-bottom: 0.5rem;
+}
+
+.white-mode > .main-header > hgroup > h2{
+  color: #1f1f1f;
+}
+.main-header > hgroup > h2{
+  color: #d0d0d0;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.my-description{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+
+.dark-mode > .my-description{
+  border: 0.08rem solid white;
+}
+
+.white-mode > .my-description{
+  border: 0.08rem solid black;
+}
+
+.content-space{
+  margin: 1.5rem;
+}
+
+.my-links > div{
+  margin: 0 auto;
+  border: #f0f0f0 solid 0.08rem;
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 0.9rem;
+  font-weight: 600;
+  border-radius: 0.3rem;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.my-links > .telegram{
+  background-color: #31ABE0;
+}
+
+.my-links > .twitterx{
+  background-color: #000000;
+}
+
+.my-links > .github{
+  background-color: #1B1F23;
+}
+
+.my-links > .youtube{
+  background-color: #ff0000;
+}
+
+.my-links > .email{
+  background-color: #DCB451;
+}
+
+.my-links > .instagram{
+   background: rgb(131, 58, 180);
+   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(255, 48, 48, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+mark{
+  color: #f0f0f0;
+  background-color: #091FCF;
+}
+
+.footer{
+  margin: 0.5rem;
+}
+
+.dark-mode > .footer{
+  border-top: 0.08rem solid #f9f9f9;
+}
+
+.white-mode > .footer{
+  border-top: 0.08rem solid #191919;
+}
+
+.float-btn-right{
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.08rem;
+}
+
+.float-btn-right:hover{
+  cursor: pointer;
+}
+
+.float-btn-left{
+  position: fixed;
+  bottom: 2rem;
+  left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.08rem;
+}
+
+.float-btn-left:hover{
+  cursor: pointer;
+}
+
+.dark-mode > .float-btn-right{
+  background-color: #191919;
+  border: 0.07rem solid #f5f5f5;
+}
+
+.white-mode > .float-btn-right{
+  background-color: #f5f5f5;
+  border: 0.07rem solid #191919;
+}
+
+.dark-mode>.float-btn-left {
+  background-color: #191919;
+  border: 0.07rem solid #f5f5f5;
+}
+
+.white-mode>.float-btn-left {
+  background-color: #f5f5f5;
+  border: 0.07rem solid #191919;
+}
+
+.read-mode-div-on{
+  background-color: hsla(45, 58%, 36%, 0.23);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.read-mode-div-off{
+  position: fixed;
+  top:0;
+  left:0;
+  height: 0vh;
+  width: 0vw;
+}
+
+/*This Code is copied from 
+https://github.com/DIegoLOL-Code/BeautyCSS
+*/
+
+progress {
+  display: block;
+}
+
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  appearance: none;
+  width: 100%;
+  height: 0.5rem;
+  margin-bottom: calc(5px * 0.5);
+  overflow: hidden;
+  border: 0.1rem solid #f0f0f0;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  color: #f0f0f0;
+}
+progress::-webkit-progress-bar {
+  border-radius: 0.3rem;
+  background: none;
+}
+progress[value]::-webkit-progress-value {
+  transition: all 5s;
+  background-color: #4F7ADA;
+}
+progress::-moz-progress-bar {
+  background-color: #4F7ADA;
+}
+
+
+@media  (min-width: 600px){
+  body{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+a{
+  color: #7781F5;
+}
+
+a:visited {
+  color: #7781F5;
+}
