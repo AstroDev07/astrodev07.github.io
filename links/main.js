@@ -33,6 +33,10 @@ let cssNamesArray=['CSS Gradient', 'CSS Loaders', 'CSS Tricks']
 let cssLinksArray=['https://cssgradient.io/', 'https://css-loaders.com/', 'https://css-tricks.com/']
 addLinks('css-items-lists', cssLinksArray, cssNamesArray)
 
-let jsNamesArray=['Learn JavaScript Online', 'JavaScript Info', 'JavaScript DevDocs']
-let jsLinksArray=['https://learnjavascript.online/', 'https://javascript.info/', 'https://devdocs.io/javascript/']
+let jsNamesArray=['Learn JavaScript Online', 'JavaScript Info', 'JavaScript DevDocs', 'Learn JavaScript Org']
+let jsLinksArray=['https://learnjavascript.online/', 'https://javascript.info/', 'https://devdocs.io/javascript/', 'https://learn-js.org/']
 addLinks('js-items-links', jsLinksArray, jsNamesArray)
+
+let htmlNamesArray=['Learn HTML Org']
+let htmlLinksArray=['https://learn-html.org/']
+addLinks('html-related-links', htmlLinksArray, htmlNamesArray)
