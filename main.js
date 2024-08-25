@@ -11,7 +11,7 @@ events('twitterlink', 'https://www.x.com/astrodev0703')
 events('personaltg', 'https://t.me/astrofficial')
 events('mygithub', 'https://github.com/astrodev07')
 events('ytchannel', 'https://youtube.com/@astrodev07')
-events('emailink', 'mailto:diegoenriquezpuig07@gmail.com')
+events('emailink', 'mailto:diegoaep07@proton.me')
 events(
   'instagram',
   'https://www.instagram.com/diego.alejandroep?igsh=NWE5dXhjYXN0OTJu'
