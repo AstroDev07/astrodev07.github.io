@@ -14,7 +14,7 @@ events('ytchannel', 'https://youtube.com/@astrodev07')
 events('emailink', 'mailto:diegoaep07@proton.me')
 events(
   'instagram',
-  'https://www.instagram.com/diego.alejandroep?igsh=NWE5dXhjYXN0OTJu'
+  'https://www.instagram.com/diego.alejandroep'
 )
 let changeMode = document.getElementById('change-mode')
 changeMode.addEventListener(
